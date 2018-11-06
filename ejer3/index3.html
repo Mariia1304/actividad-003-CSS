@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Emiratos Arabes</title>
+	<style>
+		#rect-big{
+			width: 400px;	
+			height: 250px;
+			background-color: white;
+			border: solid 1px black;
+			position: relative;
+		}
+		#rect-red{
+			width: 84px;
+			height: 250px;
+			position: absolute;
+			left: 0px;
+			background-color: red;
+			z-index: 4;
+		}
+		#rect-green{
+			width: 317px;
+			height: 84px;
+			background-color: green;
+			position: absolute;
+			top:0px;
+			right: 0px;
+
+		}
+		#rect-black{
+			width: 317px;
+			height: 84px;
+			background-color: black;
+			position: absolute;
+			bottom:0px;
+			right: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div id="rect-big">
+		<div id="rect-red"></div>
+		<div id="rect-green"></div>
+		<div id="rect-black"></div>
+		
+	</div>
+</body>
+</html>
